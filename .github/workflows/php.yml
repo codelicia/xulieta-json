@@ -1,0 +1,24 @@
+name: PHP tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Validate composer.json and composer.lock
+      run: composer validate
+
+    - name: Install dependencies
+      run: composer update --prefer-dist --no-progress
+
+    - name: Run php-cs-fixer
+      run: ./vendor/bin/php-cs-fixer fix
