@@ -1,0 +1,7 @@
+{
+    "name": "codelicia/xulieta-json",
+    "autoload": {"psr-4": {"Codelicia\\XulietaJson\\": "src/"}},
+    "require-dev": {
+        "codelicia/xulieta": "^0.1.3"
+    }
+}
