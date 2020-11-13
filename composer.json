@@ -1,7 +1,14 @@
 {
     "name": "codelicia/xulieta-json",
-    "autoload": {"psr-4": {"Codelicia\\XulietaJson\\": "src/"}},
+    "description": "Xulieta Plugin for JSON validation",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Codelicia\\XulietaJson\\": "src/"
+        }
+    },
     "require-dev": {
+        "doctrine/coding-standard": "^8.2.0",
         "codelicia/xulieta": "^0.1.3"
     }
 }
