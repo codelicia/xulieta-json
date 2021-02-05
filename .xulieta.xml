@@ -2,5 +2,4 @@
 <xulieta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="./vendor/codelicia/xulieta/xulieta.xsd">
     <validator>Codelicia\XulietaJson\JsonValidator</validator>
-    <validator>Codelicia\XulietaJson\JsonValidator</validator>
 </xulieta>

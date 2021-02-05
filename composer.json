@@ -8,7 +8,7 @@
         }
     },
     "require": {
-        "php": ">=7.4 || ~8.0"
+        "php": ">=7.4"
     },
     "require-dev": {
         "codelicia/xulieta": "1.0.x-dev as 1.0.0",
