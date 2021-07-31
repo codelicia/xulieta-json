@@ -14,5 +14,10 @@
         "codelicia/xulieta": "1.0.x-dev as 1.0.0",
         "doctrine/coding-standard": "^9.0.0",
         "phpunit/phpunit": "^9.4"
+    },
+    "extra": {
+        "xulieta": {
+            "validator": ["Codelicia\\XulietaJson\\JsonValidator"]
+        }
     }
 }
