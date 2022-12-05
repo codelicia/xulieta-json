@@ -19,5 +19,11 @@
         "xulieta": {
             "validator": ["Codelicia\\XulietaJson\\JsonValidator"]
         }
+    },
+    "config": {
+        "allow-plugins": {
+            "codelicia/xulieta": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     }
 }
