@@ -2,11 +2,6 @@
     "name": "codelicia/xulieta-json",
     "description": "Xulieta Plugin for JSON validation",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Codelicia\\XulietaJson\\": "src/"
-        }
-    },
     "require": {
         "php": ">=7.4 || ~8.0"
     },
@@ -15,15 +10,22 @@
         "doctrine/coding-standard": "^9.0.0",
         "phpunit/phpunit": "^9.4"
     },
-    "extra": {
-        "xulieta": {
-            "validator": ["Codelicia\\XulietaJson\\JsonValidator"]
+    "autoload": {
+        "psr-4": {
+            "Codelicia\\XulietaJson\\": "src/"
         }
     },
     "config": {
         "allow-plugins": {
             "codelicia/xulieta": true,
             "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "extra": {
+        "xulieta": {
+            "validator": [
+                "Codelicia\\XulietaJson\\JsonValidator"
+            ]
         }
     }
 }
