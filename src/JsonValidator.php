@@ -25,7 +25,7 @@ final class JsonValidator implements Validator
     {
         try {
             json_decode($sampleCode->code(), true, 512, JSON_THROW_ON_ERROR);
-        } catch (Throwable $ex) {
+        } catch (Throwable) {
             return true;
         }
 
