@@ -27,5 +27,14 @@
                 "Codelicia\\XulietaJson\\JsonValidator"
             ]
         }
+    },
+    "scripts": {
+        "phpcbf": "vendor/bin/phpcbf",
+        "phpcs": "vendor/bin/phpcs",
+        "phpunit": "vendor/bin/phpunit",
+        "test": [
+            "@phpcs",
+            "@phpunit"
+        ]
     }
 }
