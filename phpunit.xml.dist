@@ -1,13 +1,12 @@
 <?xml version="1.0"?>
 <phpunit
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
-        beStrictAboutResourceUsageDuringSmallTests="true"
+        xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.0/phpunit.xsd"
         beStrictAboutChangesToGlobalState="true"
         beStrictAboutOutputDuringTests="true"
         bootstrap="./vendor/autoload.php"
-        verbose="true"
         colors="true"
+        cacheDirectory=".phpunit.cache"
 >
     <testsuites>
         <testsuite name="functional">
